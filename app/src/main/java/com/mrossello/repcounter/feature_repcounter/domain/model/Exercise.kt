@@ -17,3 +17,5 @@ data class Exercise(
         return result
     }
 }
+
+class InvalidExercise(message: String): Exception(message)
